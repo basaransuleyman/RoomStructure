@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "aliens_table")
-data class RoomEntities(
+data class AlienEntities(
     @ColumnInfo(name = "alienName")
     var alienName: String? = null,
     @ColumnInfo(name = "alienRegion")
